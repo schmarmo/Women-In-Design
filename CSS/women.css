@@ -1,0 +1,142 @@
+/*import from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/*css reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*default styles for the whole page*/
+
+body {
+    color: #101010;
+    border-color: #101010;
+    background-color: #ffffff;
+}
+
+/*content container to centre content*/
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto 0 auto;
+}
+
+/*default styling for headings*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+/*specific styles*/
+h1 {
+    font-size: 4.25rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: .5rem;
+}
+
+/* Paragraphs */
+p {
+    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    }
+
+/*paragraph large */
+p.large {
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times,
+    serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    }
+
+    /*blockquote*/
+figure.quote {
+    border-left: 8px solid #dda429;
+    padding:1.5rem 0 1.5rem 2rem;
+    margin-bottom: 2rem;
+    }
+
+figure.quote p{
+margin-bottom:0;
+}
+figure.quote blockquote {
+margin-bottom:.5rem;
+}
+figure.quote figcaption p{
+font-weight:700;
+}
+
+/* hyperlinks */
+a {
+    font-family:inherit;
+    font-size:inherit;
+    line-height: inherit;
+    color: #006bc3;
+    }
+    
+a:hover {
+color:#00447B;
+}
+a:visited {
+    color:#6935d2;
+    }
+
+/* images*/
+img {
+    max-width: 1020px;
+    width:100%;
+    height:auto;
+    border:1px solid #dda429;
+    margin-bottom: 2rem;
+    }
+
+footer {
+    padding: 1.5rem 0 1.5rem 0;
+    margin-top:2rem;
+    border-top:1px solid #dda429;
+    }
+
+header{
+    border-bottom:2px solid #000000;
+    padding:1.5rem 0;
+    }
+        
+header p.logo{
+    font-weight: 700;
+    margin-bottom:0;
+    font-size:1.75rem;
+    line-height: 1.1;
+    }
+
+.colour-block{
+    padding:3rem 0 3rem 0;
+    background-color:#dda429;
+    margin-bottom:2.5rem;
+    }
+
+.highlight {
+    background-color: #ffffff;
+    padding:0 0.5rem;
+    }
+    
+    /* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+    
